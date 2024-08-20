@@ -1,6 +1,6 @@
 # BBC_News
 
-![News](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajL0m36xadXYCJsSZIW4deB8CgJFNpLAbpw&s)
+![News](https://www.thesun.co.uk/wp-content/uploads/2024/05/bbc-news-logo-171735604.jpg)
 
 # About Dataset:
 ### Context
@@ -12,11 +12,11 @@ These datasets can be viewed as classification or regression tasks. The classes 
 ### Content
 BBC News RSS Feeds. The data contains the following columns:
 
-1 - title
-2 - pubDate
-3 - guid
-4 - link
-5 - description
+- title
+- pubDate
+- guid
+- link
+- description
 
 ### Collection method
 Uses requests_html and BeautifulSoup to collect RSS Feeds from BBC News site.
